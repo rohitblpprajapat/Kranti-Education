@@ -1,0 +1,326 @@
+@charset "utf-8";
+
+/****   Developed by http://www.freetimelearning.com/    *****/
+* {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+	margin: 0px;
+	/* width: 100%; */
+	overflow-x: hidden;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #e7e6e6;
+}
+
+li {
+	list-style: none;
+}
+
+.navbar {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	background-color: rgb(43, 43, 43);
+	align-items: center;
+}
+
+.icon-section {
+	/* color: #000; */
+	margin: auto;
+	width: 20%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav_links a {
+	color: #CCC;
+}
+
+.nav_links {
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.icon-fa,
+.icon-insta {
+	border: 2px solid gray;
+	padding: 10px 13px 10px 13px;
+	border-radius: 100%;
+	color: #9e9e9e;
+
+}
+
+.icon {
+	border: 2px solid gray;
+	padding: 10px;
+	border-radius: 100%;
+	color: #9e9e9e;
+}
+
+
+.main {
+	width: 100%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/*********** Start Header (or) Menu **********/
+.header {
+	width: 100%;
+	height: 250px;
+	background-color: rgb(32, 32, 32);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* float: left; */
+}
+
+.header-left {
+	width: 774px;
+	margin-top: 20px;
+	height: 110px;
+	padding: 10px;
+}
+
+
+.header-right {
+	height: 60px;
+	width: 50%;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	background-color: #3178e2;
+}
+
+.header-right ul {
+	list-style: none;
+}
+
+.header-right ul li {
+	list-style: none;
+	font-family: arial;
+	font-size: 14px;
+	padding: 5px 0px 15px 0px;
+	margin: 5px 0px 12px;
+	float: left;
+	font-weight: bold;
+}
+
+.header-right ul li a {
+	padding: 5px 30px 10px;
+	margin: 2px 0px 5px;
+	text-decoration: none;
+	color: #000;
+}
+
+.header-right ul li a:hover {
+	color: #0099dd;
+}
+
+/*********** End Header (or) Menu **********/
+
+
+
+
+
+/*************** Start Content *****************/
+.content {
+	height: 100%;
+	max-width: 88%;
+	margin: 0 auto;
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+}
+.about_content{
+	display: flex;
+	/* height: 200%; */
+}
+.text_container {
+	padding: 20px;
+	text-align: left;
+	justify-items: left;
+}
+
+.section_left {
+	height: 100vh;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+
+	padding: 50px;
+	margin-right: 0;
+	background-color: #ffffff;
+	border-right: 1px solid black;
+
+}
+
+.sec_title {
+	display: inline-block;
+	margin-right: 0;
+}
+
+.section_content {
+	margin-right: 0;
+	/* float: right; */
+	height: auto;
+	width: auto;
+	margin-top: 30px;
+	padding: 10px;
+
+	background-color: #fafafa;
+}
+
+.sec_title {
+	margin: auto auto 0 auto;
+	font-size: 35px;
+}
+
+.acheivement_section {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 300px;
+	width: 90%;
+	overflow: hidden;
+}
+
+
+.inner_div {
+	float: left;
+	height: 200px;
+	width: 100%;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+/* *slider1*/
+
+#slider-container1 {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+
+#slider-images {
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	transition: transform 1s ease-in-out;
+}
+/* *slider1*/
+
+/* *slider2*/
+.slider2 {
+	padding: 10px;
+	height: 250px;
+	width: 40%;
+}
+
+.slider2-heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#slider-container {
+	background-color: #9e9e9e;
+	width: 200px;
+	margin-left: 20px;
+	position: relative;
+}
+
+#slider-container img {
+	height: 150px;
+	width: 100px;
+	position: absolute;
+	transition: opacity 1s ease-in-out;
+	/* width: 100px; */
+}
+
+/* *slider2end */
+
+.sidebar {
+	float: right;
+	padding: 50px 0 50px 3.75%;
+	width: 45%;
+	background-color: #f1f1f1;
+}
+
+
+.widget_contact_info{
+	/* height: 50%; */
+	bottom:0;
+	width: 400px;
+	position: absolute;
+}
+
+
+/************ End Content **************/
+
+
+
+/************ Start Footer *****************/
+/* #footer {
+	/* width: 100% !important ; */
+/* float: left; */
+/* background: #CCC; */
+
+.copyrights {
+	width: 100%;
+	height: 64px;
+	font-size: 12px;
+	background: #3f4041;
+	float: left;
+	padding: 15px 30px 15px 30px;
+	color: #FFF;
+}
+
+.copyrights-left {
+	width: 664px;
+	float: left;
+}
+
+.copyrights-left a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.copyrights-left a:hover {
+	color: #CCC;
+}
+
+.copyrights-right {
+	width: 300px;
+	float: left;
+	text-align: right;
+}
+
+.copyrights-right a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.copyrights-right a:hover {
+	color: #CCC;
+}
+
+/*************** End Footer ***********/
