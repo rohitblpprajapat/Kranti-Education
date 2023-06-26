@@ -1,1 +1,1 @@
-# CALIBER-ACADEMY
+# Kranti Education 🔥
